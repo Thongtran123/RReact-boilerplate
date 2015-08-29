@@ -17,9 +17,12 @@ var Aboutme = React.createClass({
 
   render: function() {
     return (
-      <div>
+      <div className="about">
         <p>About me</p>
-        <button>gi</button>
+        <img src="assets/images/lee.jpg" />
+        <p>Thong tran</p>
+        <p>Age : 21 year old</p>
+        <p><a href="daa.uit.edu.vn">University information technology </a></p>
       </div>
     );
   }

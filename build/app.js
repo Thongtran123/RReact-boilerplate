@@ -21454,9 +21454,12 @@
 
 	  render: function() {
 	    return (
-	      React.DOM.div(null, 
+	      React.DOM.div({className: "about"}, 
 	        React.DOM.p(null, "About me"), 
-	        React.DOM.button(null, "gi")
+	        React.DOM.img({src: "assets/images/lee.jpg"}), 
+	        React.DOM.p(null, "Thong tran"), 
+	        React.DOM.p(null, "Age : 21 year old"), 
+	        React.DOM.p(null, React.DOM.a({href: "daa.uit.edu.vn"}, "University information technology "))
 	      )
 	    );
 	  }
