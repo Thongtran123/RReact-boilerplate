@@ -47,6 +47,11 @@ var router = new Router({
   '/contact': function() {
     var page = React.createFactory(require('./pages/contact'));
     render(router.getRoute(), page);
+  },
+
+  '/aboutme': function() {
+    var page = React.createFactory(require('./pages/aboutme'));
+    render(router.getRoute(), page);
   }
 });
 
